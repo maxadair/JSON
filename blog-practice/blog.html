@@ -1,20 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <link href="css/custom.css" rel="stylesheet" type="text/css">
+  
   <title>Aquatic Ecology and Biogeochemistry Laboratory - water quality, habitat condition, and trophy status of estuaries, rivers, lakes, and reservoirs</title>
-</head>
-
-<body>
-  <header>
+        <link rel="stylesheet" href="/CSS/custom.css" />
+    </head>
+    <body>
+       <header>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand">Hall Lab</a>
@@ -43,26 +42,20 @@
     </nav>
   </div>
 </header>
-  <div class="container-fluid">
-    <div class="home-background">
-      <div class="container d-flex justify-content-center align-items-center">
-        <h1 id="home-background-text">Welcome to the Hall Laboratory Website</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="container my-20">
-    <h1>About the Lab!</h1> 
-    <h2>Take a breath….now take another one.</h2>
-    <p>Did you know that about 50% of the oxygen in our atmosphere, that's the oxygen in every second breath you take, is produced by phytoplankton in the sea?</p>
-    <p>We are a biological oceanography lab in the Department of Earth, Marine and Environmental  Sciences at the University of North Carolina at Chapel Hill that performs inquiry-based science by combining physiological and molecular approaches in laboratory isolates and natural communities to investigate how phytoplankton are affected by their environment and in turn, influence ocean biogeochemistry and ecosystem dynamics. Particular interests include studying trace metals, such as iron, that are essential for the nutrition of phytoplankton and predicting the effects of future climate changes on phytoplankton distribution and abundance.</p>
-  </div> 
-
-  
-  <footer>
-    <div class="site-footer">
-      All content belongs to UNC affiliated Hall Lab.
-    </div>
-  </footer>
-</body>
+        <div class="container-fluid">
+            <h1>Blog</h1>
+            <div class="container" id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="search blog posts"
+                />
+            </div>
+            <ul id="blogList"></ul>
+        </div>
+        <script src="/JS/new.js"></script>
+    </body>
 </html>
+
+
